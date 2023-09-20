@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.container{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title{
+    text-align: center;
+    color: rgb(2, 41, 70);
+    font-size: 2em;
+    margin-top: 150px;
+}
+
+.underline{
+    border: 3px solid rgb(119, 148, 197);
+    width: 100px;
+    margin: auto;
+}
+
+.review{
+    background-color: #fff;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.img-container{
+   text-align: center;
+   margin: 10px;
+}
+
+.review h4{
+    text-align: center;
+    color: rgb(2, 41, 70);
+    padding: 5px 2px;
+}
+
+.review p{
+    text-align: center;
+    padding: 5px;
+}
+
+.review p#job{
+    color: rgb(119, 148, 197);
+    text-transform: uppercase;
+}
+
+.button-container{
+    text-align: center;
+}
+
+.button-container button{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.button-align{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.random-btn{
+    padding: 5px 10px;
+    border: 1px solid rgb(2, 41, 70);
+    border-radius: 10px;
+    background-color: lightblue;
+    color: rgb(72, 96, 138);
+    cursor: pointer;
+}
